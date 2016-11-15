@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WitchHunt</string>
+    <string name="title_section_list">Sections</string>
+    <string name="title_section_detail">Section Detail</string>
+    <string name="battle">Battle!</string>
+    <string name="start">Start</string>
+</resources>
