@@ -6,6 +6,7 @@ package com.whitewolfstudios.witchhunt;
 
 public enum SpaceType {
 
+
     BLANKSPACE(true,true,true,true),
     IN_PASS_ABLE(false,false,false,false),
     SEE_THROUGH(true,false,false,false),
