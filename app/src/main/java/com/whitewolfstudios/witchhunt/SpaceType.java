@@ -6,11 +6,13 @@ package com.whitewolfstudios.witchhunt;
 
 public enum SpaceType {
 
-    Passable(true,true,true,true),
-    InPassAble(false,false,false,false),
-    SeeThrough(true,false,false,false),
-    CanPassThrough(true,false,false,true),
-    
+    BLANKSPACE(true,true,true,true),
+    IN_PASS_ABLE(false,false,false,false),
+    SEE_THROUGH(true,false,false,false),
+    CAN_PASS_THROUGH(true,false,false,true),
+    RESOURCE_SPACE(true,true,false,true),
+    FOG_SPACE(false,true,true,true),
+    HIDDEN_SPACE(false,false,false,true);
 
     boolean canSeeThrough;
 
@@ -18,11 +20,11 @@ public enum SpaceType {
 
     boolean canKnightStandOn;
 
-    boolean canKMoveOn;
+    boolean canKMoveThrough;
 
-    SpaceType(boolean canSeeThrough, boolean canStandOn, boolean canKnightStandOn, boolean canMoveOn) {
+    SpaceType(boolean canSeeThrough, boolean canStandOn, boolean canKnightStandOn, boolean canMoveThrough) {
 
-        this.canKMoveOn=canMoveOn;
+        this.canKMoveThrough =canMoveThrough;
         this.canKnightStandOn = canKnightStandOn;
         this.canSeeThrough = canSeeThrough;
         this.canStandOn = canStandOn;
