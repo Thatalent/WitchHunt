@@ -7,4 +7,5 @@ package com.whitewolfstudios.witchhunt;
 public class GameBoard {
 
 
+
 }

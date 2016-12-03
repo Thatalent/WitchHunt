@@ -14,5 +14,5 @@ public interface GameBoardCreationService {
 
     void placePlayers(GameBoard gameBoard);
 
-
+    void placeGameBoardObjects(GameBoard gameBoard);
 }

@@ -7,5 +7,4 @@ package com.whitewolfstudios.witchhunt;
 public class GameBoardSpace {
 
     private SpaceType spaceType;
-
 }
